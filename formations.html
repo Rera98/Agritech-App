@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="formations.css">
+    <link rel="stylesheet" href="index.css">
+    <title></title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header>
+        <nav class="container-fluid navbar navbar-bg ">
+            <div class="container-fluid cont-bg p-2">
+                <div class="container-fluid  d-flex jus justify-content-md-between justify-content-lg-between">
+
+                    <div class="d-none col-lg-5 contacts  d-lg-flex  align-items-center gap-4">
+                        <div class="mail d-flex justify-content-center align-items-center gap-1">
+                            <i class="bi bi-envelope"></i>
+                            <div class="p">support@agritech.com</div>
+                        </div>
+                        <div class="tel d-flex justify-content-center align-items-center gap-1">
+                            <i class="bi bi-telephone"></i>
+                            <div class="p">(00227) 99 98 97 96</div>
+                        </div>
+                    </div>
+
+                    <div class="img col col-lg-3 col-md-5 d-flex justify-content-end justify-content-lg-start justify-content-md-start align-items-center">
+                    
+                        <div class=" img d-flex align-items-center">
+                            <img src="./assets/favico.png" alt="">
+                            <p class="h4">Agritech App</p>
+                        </div>
+                            
+                        <!-- <div> -->
+                        
+                        <!-- </div> -->
+                        
+                    </div>
+                    <div class="col-3 navbar-toggler d-flex d-sm-none justify-content-end" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                    </div>
+                    <div class="d-none col-lg-3 col-md-6  d-sm-flex d-flex gap-4 align-items-center justify-content-end">
+                        <div class="nig d-flex justify-content-center align-items-center gap-1 p-2 border-end border-dark">
+                            <img src="./assets/Niger.png" alt="">
+                            <div class="p">NE</div>
+                        </div>
+                        <div class="ico gap-2 ml-3">
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-tiktok"></i>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- <a class="navbar-brand" href="#">Offcanvas navbar</a> -->
+            
+                <div class="container offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header img d-flex align-items-center">
+                        <img src="./assets/favico.png" alt="">
+                            <p class="h4">Agritech Menu</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="connec d-flex justify-content-center border-bottom p-3">
+                        <a href="connexion.html"><button class="p-2 rounded-5 gap-2">Connect <i class="bi bi-box-arrow-in-left"></i></button></a>
+                        </div>
+                        <div class="">
+                            <ul class="liens d-flex flex-column p-4 border-bottom gap-4  list-unstyled">
+                                <a href="#" class="text-decoration-none text-dark fs-5">Home <i class="bi bi-arrow-up-right"></i></a>
+                                <a href="formations.html" class="text-decoration-none text-dark fs-5">Formations <i class="bi bi-arrow-up-right"></i></a>
+                                <a href="meteo.html" class="text-decoration-none text-dark fs-5">Météo <i class="bi bi-arrow-up-right"></i></a>
+                                <a href="indicateurs.html" class="text-decoration-none text-dark fs-5">Indicateurs <i class="bi bi-arrow-up-right"></i></a>
+                            </ul>
+                        </div>
+                        <div class="frase d-flex justify-content-center p-2"><h5>Socials Links: </h5></div>
+                        <div class=" col-lg-3 col-md-6  d-sm-flex d-flex gap-4 align-items-center justify-content-center">
+                            <div class="nig d-flex justify-content-center align-items-center gap-1 p-2 border-end border-dark">
+                                <img src="./assets/Niger.png" alt="">
+                                <div class="p">NE</div>
+                            </div>
+                            <div class="ico gap-2 ml-3">
+                                <i class="bi bi-twitter-x"></i>
+                                <i class="bi bi-facebook"></i>
+                                <i class="bi bi-linkedin"></i>
+                                <i class="bi bi-instagram"></i>
+                                <i class="bi bi-tiktok"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 contacts  d-lg-flex  align-items-center gap-4">
+                            <div class="mail d-flex justify-content-center align-items-center gap-1">
+                                <i class="bi bi-envelope"></i>
+                                <div class="p">support@agritech.com</div>
+                            </div>
+                            <div class="tel d-flex justify-content-center align-items-center gap-1">
+                                <i class="bi bi-telephone"></i>
+                                <div class="p">(00227) 99 98 97 96</div>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" container-fluid bas w-100 d-none d-sm-flex d-flex justify-content-between p-3">
+                <div class="input-group d-none d-lg-flex large">
+                    <span class="input-group-text" id="addon-wrapping"><i class="bi bi-search"></i></span>
+                    <input type="text" class="form-control" placeholder="Search anything ..." aria-label="Username" aria-describedby="addon-wrapping">
+                </div>
+
+                <div>
+                    <ul class="liens d-flex gap-4 align-items-center justify-content-center list-unstyled">
+                        <a href="index.html" class="text-decoration-none text-dark fs-5">Home <i class="bi bi-arrow-up-right"></i></a>
+                        <a href="formations.html" class="text-decoration-none text-dark fs-5">Formations <i class="bi bi-arrow-up-right"></i></a>
+                        <a href="" class="text-decoration-none text-dark fs-5">Météo <i class="bi bi-arrow-up-right"></i></a>
+                        <a href="" class="text-decoration-none text-dark fs-5">Indicateurs <i class="bi bi-arrow-up-right"></i></a>
+                    </ul>
+                </div>
+
+                <div class="connec w-30">
+                    <a href="connexion.html"><button class="p-2 rounded-5 gap-2">Connect <i class="bi bi-box-arrow-in-left"></i></button></a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+<!-- ---------------- Fin NAV -------------- -->
+    <main class="flex-fill">
+
+        <div class="container-fluid bo w-75 position-relative mb-5 justify-content-center align-items-center">
+            <div class="text-overlay position-absolute top-50 start-50 translate-middle text-center text-white">
+                <h6 class="typewriter">Home > > Nos Formations</h6>
+                <h2 class="slogan">Nos formations</h2>
+            </div>
+            <img class="rounded-4 w-100"  src="./assets/Home Carroussel.jpg" alt="">
+            <div class="position-absolute bo top-0 start-0 w-100 h-100 rounded-4 foot-bg opacity-25"></div>
+        </div>
+
+        <div class="container mb-5"><h1>Toutes Nos Formations</h1></div>
+
+        <div class="container mb-5">
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card position-relative">
+                        <img src="assets/Blog-img-1.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">10</span> <br> <br>08/2020</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Jardinage</p></div>
+                        <div><h4>Lorem dolor</h4></div>
+                        <div><p class="spa">Malika Malikatou</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>7 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="malika.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-9.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">29</span> <br> <br>09/2019</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Contre-saison</p></div>
+                        <div><h4>Cras dapibus</h4></div>
+                        <div><p class="spa">Amir Amirou</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>3 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-4.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">26</span> <br> <br>07/2019</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Jardinage</p></div>
+                        <div><h4>Lorem dolor</h4></div>
+                        <div><p class="spa">Abdou Abdourahmane</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>4 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-10.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">29</span> <br> <br>08/2015</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Desertification</p></div>
+                        <div><h4>Utricies nec</h4></div>
+                        <div><p class="spa">Leila Leilatou</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>5 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-2.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">02</span> <br> <br>07/2015</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Desertification</p></div>
+                        <div><h4>Cras dapidus</h4></div>
+                        <div><p class="spa">Leila Leilatou</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>2 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-3.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">19</span> <br> <br>02/2015</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Pépinières</p></div>
+                        <div><h4>Lorem dolor</h4></div>
+                        <div><p class="spa">Abdou Abdourahman</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>4 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-7.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">16</span> <br> <br>09/2014</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Jardinage</p></div>
+                        <div><h4>Donec Sodales</h4></div>
+                        <div><p class="spa">Amir Amirou</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>3 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-8.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">21</span> <br> <br>01/2014</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Pépinières</p></div>
+                        <div><h4>Cras Dapidus</h4></div>
+                        <div><p class="spa">Malika Malikatou</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>4 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-6.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">18</span> <br> <br>03/2012</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Désertification</p></div>
+                        <div><h4>Cras Dapidus</h4></div>
+                        <div><p class="spa">Abdou Abdourahmane</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>4 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="ton card">
+                        <img src="assets/Blog-img-5.jpg" class="card-img-top">
+                        <div class=" position-absolute badge translate-middle-y">
+                           <p><span class="badge-span">25</span> <br> <br>03/2011</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center mt-3 ">
+                        <div><p class="color">Desertification</p></div>
+                        <div><h4>Ultricies nec</h4></div>
+                        <div><p class="spa">Amir Amirou</p></div>
+                        <div><p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est eius, aliquid fuga nulla sed consectetur inventore dicta eaque sequi...</p></div>
+                        <div class="d-flex gap-2 justify-content-center spa">
+                            <div><i class="bi bi-chat-left-dots"></i></div>
+                            <div><p>7 comments</p></div>
+                        </div>
+                        <div class="connec w-30">
+                           <a href="connexion.html"><button class="p-3 rounded-5 gap-2">Voir plus <i class="bi bi-box-arrow-up-right"></i></button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- --------------- footer --------------------- -->
+
+    <footer class=" border-top ">
+        <div class="container-fluid footer-content p-4 ">
+            <div class="mb-3 d-flex justify-content-center justify-content-lg-end justify-content-md-end align-items-center gap-4 ">
+                <div class=""><h6>Join Our Newsletter</h6></div>
+                <div style="position:relative;">
+                    <input type="text" class="form-control ps-3 pe-5"  placeholder="Enter Your mail" aria-label="Recipient’s username" aria-describedby="button-addon2" >
+                    <button class="btn btn-outline-secondary rounded-5 foot-bg text-white" type="button" style="position:absolute; right:6px; top:50%; transform:translateY(-50%); padding:.35rem .6rem; border-radius:.35rem;" id="button-addon2">S'abonner</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-9 gap-5 d-lg-flex d-md-flex">
+                    <div class="col-lg-5 col-md-8">
+                        <div class="offcanvas-header img d-flex align-items-center">
+                            <img src="./assets/favico.png" alt="">
+                            <p class="h5">Agritech App</p>
+                        </div>
+                        <div class="">
+                            <p>Organic faming avoids toxins. Farmers care for soil and grow crops that are safe, natural. Farmers care for soil</p>
+                        </div>
+                        <div>
+                            <p>Suivez-nous sur:</p>
+                        </div>
+                        <div class="ico gap-2 ml-3 mb-3">
+                            <i class="bi bi-twitter-x"></i>
+                            <i class="bi bi-facebook"></i>
+                            <i class="bi bi-linkedin"></i>
+                            <i class="bi bi-instagram"></i>
+                            <i class="bi bi-tiktok"></i>
+                        </div>
+                    </div>
+                    <div class="mb-3 ">
+                        <div><h5>Liens Utiles</h5></div>
+                        <div>
+                            <div><i class="bi bi-chevron-double-right"></i> Home</div>
+                            <div><i class="bi bi-chevron-double-right"></i> Formations</div>
+                            <div><i class="bi bi-chevron-double-right"></i> Météo</div>
+                            <div><i class="bi bi-chevron-double-right"></i> Indications</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-9 justify-content-md-between gap-5 d-lg-flex d-md-flex  justify-content-lg-between">
+                    <div class="mb-3">
+                        <div><h5>Nos services</h5></div>
+                        <div>
+                            <div><i class="bi bi-chevron-double-right"></i> Home</div>
+                            <div><i class="bi bi-chevron-double-right"></i> Formations</div>
+                            <div><i class="bi bi-chevron-double-right"></i> Météo</div>
+                            <div><i class="bi bi-chevron-double-right"></i> Indications</div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div><h5>Contactez-nous</h5></div>
+                        <div>
+                            <div>
+                                <div class="tels d-flex gap-3">
+                                    <div><i class="bi bi-telephone"></i></i></div>
+                                    <div class="">
+                                        <div><p><span class="spa">Phone:</span> <br> (00227) 99 98 97 96</p></div>
+                                    </div>
+                                </div>
+                                <div class="loc d-flex gap-3">
+                                    <div><i class="bi bi-geo-alt-fill"></i></div>
+                                    <div class="">
+                                        <div><p><span class="spa">Localisation:</span> <br> Niamey,Niger</p></div>
+                                    </div>
+                                </div>
+                                <div class="mails d-flex gap-3">
+                                    <div><i class="bi bi-envelope"></i></div>
+                                    <div class="">
+                                        <div><p><span class="spa">Email:</span> <br> support@agritech.com</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid foot-bg flex-grow-1 p-4">
+           <p class="text-body-white">&copy; 2025 Codeloccol, All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

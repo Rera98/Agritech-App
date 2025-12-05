@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bo img{
+    height: 300px;
+    object-fit:cover;
+}
+.bo{
+    overflow: hidden;
+}
+.ton img{
+    height: 320px;
+    object-fit: cover;
+}
+.badge{
+    display: flex;
+    width: 110px;
+    height: 110px;
+    border-radius: 400px;
+    bottom: -100px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #efdf68;
+    font-size: 14px;
+    color: grey;
+}
+.badge-span{
+    font-size: 20px;
+}
+.color{
+    color: #57907f;
+}
+@media screen and (max-width:1024px) {
+    .badge{
+    width: 90px;
+    height: 90px;
+    border-radius: 400px;
+    font-size: 14px;
+}
+}
