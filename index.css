@@ -246,8 +246,11 @@
 }
 @media screen and (max-width:425px) {
     .cont-bg{
+        /* position: fixed;
+        position: absolute; */
     background-color: #ffffff;
 }
+
 .form-control{
     width: 100px;
 }
