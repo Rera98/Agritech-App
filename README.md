@@ -27,4 +27,4 @@ Améliorer la prise de décision dans les communautés rurales.
 - CSS
 - Bootstrap
 
-- ![Description de l’image](rendu.png)
+- ![Description de l’image](assets/rendu.png)
