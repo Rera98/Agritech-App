@@ -7,12 +7,13 @@
     height: 300px;
     object-fit:cover;
 }
-.bo{
+.bo {
     overflow: hidden;
 }
 .ton img{
     height: 320px;
     object-fit: cover;
+    transition: transform 0.5s ease;
 }
 .badge{
     display: flex;
@@ -27,6 +28,7 @@
     background-color: #efdf68;
     font-size: 14px;
     color: grey;
+    z-index: 3;
 }
 .badge-span{
     font-size: 20px;
@@ -34,6 +36,28 @@
 .color{
     color: #57907f;
 }
+.ti:hover .ton img{
+    cursor: pointer ;
+    transform: scale(1.1) ;
+}
+.img-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0); /* invisible au départ */
+    transition: background 0.5s ease;
+    z-index: 2;
+}
+.ti:hover .img-overlay {
+    /* background: rgba(0,0,0,0.2);  */
+    background: rgba(255,255,255,0.2);
+}
+
+.img-wrap{
+    overflow: hidden;
+    /* border-radius: 10px; */
+}
+
+
 @media screen and (max-width:1024px) {
     .badge{
     width: 90px;
